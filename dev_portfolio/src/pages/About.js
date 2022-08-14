@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Button from "@mui/material/Button";
 
 function About() {
   return (
@@ -110,7 +109,6 @@ function About() {
         >
           My LinkedIn
         </a>
-        <Button variant="text">Text</Button>
         <hr
           style={{
             /* height: "10px", */
