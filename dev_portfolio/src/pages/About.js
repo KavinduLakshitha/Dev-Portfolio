@@ -72,7 +72,7 @@ function About() {
         role="button"
         target="_blank"
         rel="noreferrer"
-        style={{ marginBottom: "40px" }}
+        style={{ marginBottom: "40px", backgroundColor: "#111827" }}
       >
         My Github
       </a>

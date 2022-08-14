@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import Typewriter from "../components/Typewritter";
+
+const typeWriter = ["a frontend Dev.", "an artist.", "a freelancer."];
 
 function Home() {
   return (
@@ -7,7 +10,8 @@ function Home() {
       <span className="home__badge">HI, MY NAME IS</span>
       <h1 className="home__bigTopic">
         Kavindu Marasinghe
-        <br />I am a frontend Dev.
+        <br />I am&nbsp;
+        <Typewriter data={typeWriter} />
       </h1>
       <p className="home__desc">
         I like to build awesome client-side web applications.🚀
