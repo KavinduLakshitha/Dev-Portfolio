@@ -7,6 +7,7 @@ import About from "./pages/About";
 const App = () => {
   return (
     <div className="App">
+      
       <Navbar />
       <Home />
       <Projects />

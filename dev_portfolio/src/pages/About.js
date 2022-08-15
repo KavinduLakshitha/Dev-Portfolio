@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./About.css";
 
 function About() {
@@ -76,10 +77,16 @@ function About() {
         role="button"
         target="_blank"
         rel="noreferrer"
-        style={{ marginBottom: "40px", backgroundColor: "#111827" }}
+        style={{ marginBottom: "5px", backgroundColor: "#111827" }}
       >
         My Github
       </a>
+
+      <div className="gototop__button">
+        <Link to="home">
+          <i class="bi bi-chevron-double-up"></i>
+        </Link>
+      </div>
 
       <hr
         style={{
@@ -87,7 +94,7 @@ function About() {
           width: "70%",
           marginLeft: "auto",
           marginRight: "auto",
-          /* marginBottom: "50px", */
+          marginBottom: "20px",
         }}
       />
       <div
@@ -98,36 +105,72 @@ function About() {
           justifyContent: "center",
         }}
       >
-        <button
-          className="btn btn-secondary"
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.facebook.com/kavindulakshitha123"
-          style={{ background: "transparent", border: "none" }}
-        >
-          <i class="bi bi-facebook" style={{ fontSize: "1.8rem" }}></i>
-        </button>
+        <section className="sm-buttons">
+          <a
+            className="socialmedia_icon"
+            href="https://www.facebook.com/kavindulakshitha123"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
 
-        <button
-          className="btn btn-secondary"
-          style={{ background: "transparent", border: "none" }}
-        >
-          <i class="bi bi-instagram" style={{ fontSize: "1.8rem" }}></i>
-        </button>
-
-        <button
-          className="btn btn-secondary"
-          style={{ background: "transparent", border: "none" }}
-        >
-          <i class="bi bi-github" style={{ fontSize: "1.8rem" }}></i>
-        </button>
-
-        <button
-          className="btn btn-secondary"
-          style={{ background: "transparent", border: "none" }}
-        >
-          <i class="bi bi-linkedin" style={{ fontSize: "1.8rem" }}></i>
-        </button>
+          <a
+            className="socialmedia_icon"
+            href="https://www.instagram.com/_kavindu.laskshitha_/"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            className="socialmedia_icon"
+            href="https://wa.me/94713037712"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a
+            className="socialmedia_icon"
+            href="https://www.twitter.com/kavindulm98"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            className="socialmedia_icon"
+            href="https://www.linkedin.com/in/kavindu-marasinghe/"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            className="socialmedia_icon"
+            href="https://github.com/KavinduLakshitha"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
+            className="socialmedia_icon"
+            href="mailto:kavindu.m.online@gmail.com"
+            role="button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </section>
       </div>
 
       <hr
@@ -136,7 +179,7 @@ function About() {
           width: "70%",
           marginLeft: "auto",
           marginRight: "auto",
-          marginTop: "50px",
+          marginTop: "20px",
         }}
       />
     </div>
