@@ -3,6 +3,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
+    z-index: 1;
+    background-color:rgba(17, 24, 39) ;
+      
 }
 
 
@@ -10,6 +13,7 @@
     font-size: 18px;
     cursor: pointer;
     padding-left: 20px;
+    z-index: 2;
 }
 
 .nav__link{

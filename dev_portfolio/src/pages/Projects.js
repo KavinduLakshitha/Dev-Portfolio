@@ -17,8 +17,9 @@ function Projects() {
                 style={{
                   objectFit: "contain",
                   width: "90%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
+                  margin: "auto",
+                  boxShadow:
+                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
                 className="project__item1"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660448080/Web-portfolio/ap_x6atug.png"
@@ -157,8 +158,9 @@ function Projects() {
                 style={{
                   objectFit: "contain",
                   width: "90%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
+                  margin: "auto",
+                  boxShadow:
+                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
                 className="project__item1"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660448082/Web-portfolio/NF_tt0bo0.png"
@@ -189,8 +191,9 @@ function Projects() {
                 style={{
                   objectFit: "contain",
                   width: "90%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
+                  margin: "auto",
+                  boxShadow:
+                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
                 className="project__item1"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660448070/Web-portfolio/google_ngdgq7.png"
@@ -323,8 +326,9 @@ function Projects() {
                 style={{
                   objectFit: "contain",
                   width: "90%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
+                  margin: "auto",
+                  boxShadow:
+                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
                 className="project__item1"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660448068/Web-portfolio/messenger_itg99a.png"
@@ -355,8 +359,9 @@ function Projects() {
                 style={{
                   objectFit: "contain",
                   width: "90%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
+                  margin: "auto",
+                  boxShadow:
+                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
                 className="project__item1"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660448083/Web-portfolio/todo_cqbcdk.png"

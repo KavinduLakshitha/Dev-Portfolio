@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "../components/Typewritter";
+import ParticlesContainer from "../ParticlesContainer";
 
 const typeWriter = ["a frontend Dev.", "an artist.", "a freelancer."];
 
@@ -31,6 +32,7 @@ function Home() {
         Do you want to hire me?
       </a>
       <hr className="line" />
+      <ParticlesContainer />
     </div>
   );
 }
