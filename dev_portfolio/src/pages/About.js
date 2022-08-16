@@ -34,20 +34,22 @@ function About() {
                 <br />
                 <br />
                 <h1 className="aboutme__Title">I'm Kavindu Marasinghe</h1>
-                👨‍💻I am a 3rd-year undergraduate at SLIIT, doing a specialization
-                in BSc(hons) in Information Technology. I've done a few
-                ReactJS-based projects alone and as group projects at the uni.
-                I'm trying to learn new technologies such as NextJs, Tailwind
-                CSS and Web 3.0 development. <br />
-                <br />
-                When I am not coding or studying, I'd like to introduce my self
-                as an artist. I mostly do portrait arts as my hobby as well as a
-                freelancer.
+                <p className="aboutme__desc">
+                  👨‍💻I am a 3rd-year undergraduate at SLIIT, doing a
+                  specialization in BSc(hons) in Information Technology. I've
+                  done a few ReactJS-based projects alone and as group projects
+                  at the uni. I'm trying to learn new technologies such as
+                  NextJs, Tailwind CSS and Web 3.0 development. <br />
+                  <br />
+                  When I am not coding or studying, I'd like to introduce my
+                  self as an artist. I mostly do portrait arts as my hobby as
+                  well as a freelancer.
+                </p>
                 <br />
                 <br />
                 My preffered weapons of choice👇
                 <br />
-                <ul class="list-group">
+                <ul class="list-group" style={{ marginTop: "20px" }}>
                   <li class="list-group-item">
                     <i class="bi bi-check-circle-fill"></i>
                     &nbsp;&nbsp;&nbsp;ReactJs / NextJS

@@ -2,10 +2,12 @@
   line-height: 50px;
   font-size: 2.8rem;
   font-weight: 800;
-  color: white;
   letter-spacing: 1px;
   top:-30px;
   position: relative;
+  background-image: linear-gradient(90deg,#3b73f6, #3ad6c3);
+  background-clip: text;
+  color: transparent; 
 }
 
 .left,.right {
@@ -13,14 +15,11 @@
     min-height: 50vh;
 }
 
-
-@media screen and (min-width:768px) {
+@media (min-width:768px) {
     .left,.right {
-        
         min-height: 80vh;
     }
 }
-
 
  .projects__badge{
   color: transparent;
@@ -30,9 +29,7 @@
   top:50px;
 }
 
-
 .project__itemsTitle{
-    
     color: white;
     padding-top: 10px;
     font-size: 26px;
@@ -42,16 +39,15 @@
     padding: 30px 0 20px 0;
 }
 
-
-
 .projects__desc{
-    text-align: left;
+    /* text-align: left; */
     margin-top: 40px;
     color: lightgray;
     font-size: 20px;
-    width: 90%;    
+    width: 90%;
+    text-align: justify;
+    text-justify: inter-word;    
 }
-
 
 .projects__github{
     font-weight: bold;
@@ -60,6 +56,8 @@
     float: left;
     margin-top: 20px;
     text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
 }
 
 .projects__github:hover{
@@ -68,7 +66,7 @@
 }
 
 .list-group{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: -15px;
 }
 
@@ -90,21 +88,22 @@
     color: skyblue;
 }
 
-@media screen and(max-width: 521px) {
+@media (max-width: 768px) {
     .projects__bigTopic{
         line-height: 50px;
-        font-size: 1.8rem;
-        font-weight: 600;
-        padding: 0 10px 0 10px;
-        color: white;
+        font-size: 2rem;
+        font-weight: 900;
+        padding: 0 15px 0 15px;
         letter-spacing: 1px;
         text-align: center;
         top:-105px;
         position: relative;
+        margin-bottom: -120px;
       }
 
       .project__items{
-        margin:auto;
+        margin-left:auto;
+        margin-right: auto;
         display: flex;
         justify-content: center;
       }

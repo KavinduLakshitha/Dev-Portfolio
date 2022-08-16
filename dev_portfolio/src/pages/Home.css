@@ -5,11 +5,11 @@
 
 .home__badge {
   position: relative;
-  top:30px;
+  top:40px;
   letter-spacing: 5px;    
   font-weight:900;
   color: rgb(156 163 175);
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.25rem; 
   animation: 1s ease-in-out 0s 1 slideInFromBottom;   
 }
@@ -32,7 +32,8 @@
     color: rgb(209, 213, 219);
     font-size: 1.245rem;
     line-height: 1.9rem;
-    animation: 1s ease-in-out 0s 1 slideInFromBottom;    
+    animation: 1s ease-in-out 0s 1 slideInFromBottom;
+    text-justify: inter-word;    
 }
 
 @keyframes slideInFromBottom {
@@ -78,7 +79,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
 
   .home__badge {
     position: relative;
@@ -86,21 +87,26 @@
     letter-spacing: 5px;  
     font-size: 0.75rem;
     line-height: 1.15rem;
+    text-align: center;
   }
 
   .home__bigTopic{
     font-size: 2rem;
-    margin-top: 50px;
-    line-height: 40px;
+    margin-top: 30px;
+    line-height: 40px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   .home__desc{
     margin-top: 35px; 
     margin-bottom: 20px;
-    font-size: 1.12rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;    
     padding-left: 20px;
     padding-right: 20px;
 }

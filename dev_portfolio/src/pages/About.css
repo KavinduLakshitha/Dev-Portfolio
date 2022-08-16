@@ -8,6 +8,11 @@
   text-align: left;
 }
 
+.aboutme__desc{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .sm-buttons{
   display: flex;
   align-items: center;

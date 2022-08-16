@@ -18,6 +18,7 @@ function Projects() {
                   objectFit: "contain",
                   width: "90%",
                   margin: "auto",
+                  marginTop: "75px",
                   boxShadow:
                     " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
@@ -97,14 +98,9 @@ function Projects() {
       <div className="container">
         <div className="row g-0">
           <div className="col-md-6 g-0">
-            <div className="left d-flex justify-content-center align-items-center">
-              <p className="projects__desc" style={{ textAlign: "left" }}>
-                <h1
-                  className="project__itemsTitle"
-                  style={{ textAlign: "left" }}
-                >
-                  Netflix-Ish
-                </h1>
+            <div className="right d-flex justify-content-center align-items-space-between">
+              <p className="projects__desc">
+                <h1 className="project__itemsTitle">Netflix-Ish</h1>
                 Netflix-ish is a cloned version of the popular streaming service
                 Netflix. I have used ReactJS, Redux, TMDB ( The Movie Database )
                 and firebase to build this application.
@@ -159,6 +155,7 @@ function Projects() {
                   objectFit: "contain",
                   width: "90%",
                   margin: "auto",
+                  marginTop: "75px",
                   boxShadow:
                     " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
@@ -192,6 +189,7 @@ function Projects() {
                   objectFit: "contain",
                   width: "90%",
                   margin: "auto",
+                  marginTop: "75px",
                   boxShadow:
                     " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
@@ -270,14 +268,9 @@ function Projects() {
       <div className="container">
         <div className="row g-0">
           <div className="col-md-6 g-0">
-            <div className="left d-flex justify-content-center align-items-center">
-              <p className="projects__desc" style={{ textAlign: "left" }}>
-                <h1
-                  className="project__itemsTitle"
-                  style={{ textAlign: "left" }}
-                >
-                  Messenger-ish
-                </h1>
+            <div className="left d-flex justify-content-center align-items-space-between">
+              <p className="projects__desc">
+                <h1 className="project__itemsTitle">Messenger-ish</h1>
                 This is a full stack facebook-messenger clone. Here I have
                 specially used Firebase Firestore as the Database for the
                 application.
@@ -327,6 +320,7 @@ function Projects() {
                   objectFit: "contain",
                   width: "90%",
                   margin: "auto",
+                  marginTop: "75px",
                   boxShadow:
                     " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
@@ -360,6 +354,7 @@ function Projects() {
                   objectFit: "contain",
                   width: "90%",
                   margin: "auto",
+                  marginTop: "75px",
                   boxShadow:
                     " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
                 }}
