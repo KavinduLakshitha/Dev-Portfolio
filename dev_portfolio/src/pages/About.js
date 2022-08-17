@@ -10,18 +10,7 @@ function About() {
           <div className="col-md-6 g-0">
             <div className="left d-flex justify-content-center">
               <img
-                style={{
-                  objectFit: "contain",
-                  aspectRatio: "1",
-                  width: "60%",
-                  margin: "auto",
-                  /* marginLeft: "auto",
-                  marginRight: "auto", */
-                  /* padding: "20px", */
-                  boxShadow:
-                    " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6)",
-                }}
-                className="project__item1"
+                className="about__img"
                 src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1660485444/Web-portfolio/portfolio_gedhgy.png"
                 alt=""
               />
@@ -29,8 +18,8 @@ function About() {
           </div>
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
-                <span className="home__badge">WHO AM I?</span>
+              <p className="about__desc">
+                <span className="about__badge">WHO AM I?</span>
                 <br />
                 <br />
                 <h1 className="aboutme__Title">I'm Kavindu Marasinghe</h1>
@@ -47,9 +36,15 @@ function About() {
                 </p>
                 <br />
                 <br />
-                My preffered weapons of choice👇
+                <span className="about__Choices">
+                  My preffered weapons of choice👇
+                </span>
                 <br />
-                <ul class="list-group" style={{ marginTop: "20px" }}>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    &nbsp;&nbsp;&nbsp;HTML / CSS / Js
+                  </li>
                   <li class="list-group-item">
                     <i class="bi bi-check-circle-fill"></i>
                     &nbsp;&nbsp;&nbsp;ReactJs / NextJS
@@ -84,11 +79,11 @@ function About() {
         My Github
       </a>
 
-      <div className="gototop__button">
-        <Link to="home">
+      <Link to="home">
+        <div className="gototop__button">
           <i class="bi bi-chevron-double-up"></i>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
       <hr
         style={{
@@ -107,72 +102,67 @@ function About() {
           justifyContent: "center",
         }}
       >
-        <section className="sm-buttons">
-          <a
-            className="socialmedia_icon"
-            href="https://www.facebook.com/kavindulakshitha123"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
+        <div className="row g-0">
+          <div className="col">
+            <div className="sm__links d-flex justify-content-center">
+              <a
+                className="socialmedia_icon"
+                href="https://www.facebook.com/kavindulakshitha123"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
 
-          <a
-            className="socialmedia_icon"
-            href="https://www.instagram.com/_kavindu.laskshitha_/"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            className="socialmedia_icon"
-            href="https://wa.me/94713037712"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-          <a
-            className="socialmedia_icon"
-            href="https://www.twitter.com/kavindulm98"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            className="socialmedia_icon"
-            href="https://www.linkedin.com/in/kavindu-marasinghe/"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            className="socialmedia_icon"
-            href="https://github.com/KavinduLakshitha"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-          <a
-            className="socialmedia_icon"
-            href="mailto:kavindu.m.online@gmail.com"
-            role="button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-        </section>
+              <a
+                className="socialmedia_icon"
+                href="https://www.instagram.com/_kavindu.laskshitha_/"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                className="socialmedia_icon"
+                href="https://www.twitter.com/kavindulm98"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                className="socialmedia_icon"
+                href="https://www.linkedin.com/in/kavindu-marasinghe/"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                className="socialmedia_icon"
+                href="https://github.com/KavinduLakshitha"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                className="socialmedia_icon"
+                href="mailto:kavindu.m.online@gmail.com"
+                role="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <hr

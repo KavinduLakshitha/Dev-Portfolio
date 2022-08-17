@@ -8,6 +8,34 @@
   text-align: left;
 }
 
+.about__badge{
+  position: relative;
+  top:20px;
+  letter-spacing: 5px;    
+  font-weight:900;
+  color: rgb(156 163 175);
+  font-size: 1rem;
+  line-height: 1.25rem; 
+  animation: 1s ease-in-out 0s 1 slideInFromBottom;
+}
+
+.about__img{
+  object-fit: contain;
+  margin-top: 160px;
+  aspect-ratio: 1;
+  width: 60%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.about__desc{
+  margin-top: 130px;
+  color: lightgray;
+  font-size: 20px;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word; 
+}
+
 .aboutme__desc{
   text-align: justify;
   text-justify: inter-word;
@@ -20,8 +48,10 @@
 }
 
 .socialmedia_icon {
-  
-  padding-left: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* display: flex;
+  flex-direction: column; */
   color: #3ad6c3;
   font-size: 25px;
 }
@@ -29,16 +59,85 @@
 .socialmedia_icon:hover{
   transition: 300ms;
   color: #3b73f6;
-  transform: scale(1.03);
+  transform: scale(1.015);
 }
-
 
 .gototop__button {
   position: relative;
   cursor: pointer;
-  text-align: right;
   margin-left: auto;
-  margin-right: 80px;
+  margin-right: 100px;
   bottom:50px;
   font-size: 50px;
+  aspect-ratio: 1;
+  width: 100px;
+  border-radius: 100%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+
+  .about__img{
+  margin-top: 100px;  
+  object-fit: contain;
+  aspect-ratio: 1;
+  width: 75%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.about__badge{
+  display: flex;
+  flex-direction: column;
+  top:-80px;
+  letter-spacing: 5px;    
+  font-weight:900;
+  color: rgb(156 163 175);
+  font-size: 1rem;
+  line-height: 1.25rem; 
+  animation: 1s ease-in-out 0s 1 slideInFromBottom;
+}
+
+.aboutme__Title{
+  font-size: 2rem;
+  line-height: 50px;
+  font-weight: 900;
+  background-image: linear-gradient(90deg,#3b73f6, #3ad6c3);
+  background-clip: text;
+  color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
+.aboutme__desc{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 20px;
+    font-size: 16px;
+  
+}
+.about__Choices{
+    margin-top: 20px;
+}
+
+.socialmedia_icon {
+    color: #3ad6c3;
+    font-size: 25px;
+}
+
+.gototop__button {
+  top:5px;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 60px;
+  bottom:50px;
+  font-size: 30px;
+  aspect-ratio: 1;
+  width: 60px;
+  border-radius: 100%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+  
 }

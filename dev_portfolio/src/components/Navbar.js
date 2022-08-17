@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Helmet } from "react-helmet";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <Helmet></Helmet>
       <div className="container">
         <button
           class="navbar-toggler"

@@ -7,7 +7,7 @@ const typeWriter = ["a frontend Dev.", "an artist.", "a freelancer."];
 
 function Home() {
   return (
-    <div className="home" style={{ minHeight: 500 }}>
+    <div className="home" /* style={{ minHeight: 300 }} */>
       <span className="home__badge">HI, MY NAME IS</span>
       <h1 className="home__bigTopic">
         Kavindu Marasinghe
@@ -32,7 +32,7 @@ function Home() {
         Do you want to hire me?
       </a>
       <hr className="line" />
-      <ParticlesContainer />
+      {/* <ParticlesContainer /> */}
     </div>
   );
 }

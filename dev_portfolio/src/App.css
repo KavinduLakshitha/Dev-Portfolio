@@ -1,7 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color:#111827;
+  
   text-align: center;  
   font-family: 'Fira Code', monospace;    
 }

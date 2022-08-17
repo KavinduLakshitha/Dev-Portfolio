@@ -15,12 +15,6 @@
     min-height: 50vh;
 }
 
-@media (min-width:768px) {
-    .left,.right {
-        min-height: 80vh;
-    }
-}
-
  .projects__badge{
   color: transparent;
   padding-bottom: 0;
@@ -60,6 +54,10 @@
     padding: 10px;
 }
 
+.projects__item1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
 .projects__github:hover{
     color:#b8b8b8;
     transition: 300ms;
@@ -68,6 +66,7 @@
 .list-group{
     margin-top: 60px;
     margin-left: -15px;
+    
 }
 
 .list-group-item{
@@ -98,24 +97,45 @@
         text-align: center;
         top:-105px;
         position: relative;
-        margin-bottom: -120px;
+        top: -90px;
+        margin-bottom: -140px;
       }
 
-      .project__items{
-        margin-left:auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-      }
-      
-      .project__item{
-        position: relative;
-        margin-top: -20px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        padding-bottom: 0;
-        margin-bottom: 0;
+    .project__item1{
+        width: 100%;
+        margin-top: 250px;
     }
+
+    .project__itemsTitle{
+        padding-top: 0px;
+        font-size: 24px;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .projects__desc{
+        margin-top: 0px;
+        color: lightgray;
+        font-size: 16px;
+        padding: 0px;
+        text-align: justify;
+        /* text-justify: inter-word; */
+    }
+
+    .list-group-item{
+        text-align: left;
+        margin-right: auto;
+        background-color: transparent;
+        color: white;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .projects__github{
+        
+        font-size: 16px;
+        
+    }
+    
 }
 
