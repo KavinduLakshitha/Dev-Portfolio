@@ -4,7 +4,8 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="projects" style={{ minHeight: 500 }}>
-      <br />
+      <br/>
+      <br/>
       <h1 className="projects__bigTopic" style={{ marginTop: "80px" }}>
         My Coding Projects
       </h1>

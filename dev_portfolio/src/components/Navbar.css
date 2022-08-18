@@ -1,4 +1,5 @@
 .navbar{
+    display: flex;
     text-decoration: none;
     padding-top:20px;
     padding-bottom: 20px;
@@ -34,18 +35,12 @@
     .navbar-nav{
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
     }
 
-    /* .nav-item{
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        font-size: 16px;
+    .nav-item{        
+        font-size: 18px;
         cursor: pointer;
-        z-index: 2;
-        text-align: center;
-    } */
+        padding: 0;
+    }
 }
-
-

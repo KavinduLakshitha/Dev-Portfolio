@@ -26,17 +26,35 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <Link className="nav__link" to="home" spy={true}>
+              <Link
+                className="nav__link"
+                to="home"
+                spy={true}
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+              >
                 Home
               </Link>
             </li>
             <li class="nav-item">
-              <Link className="nav__link" to="projects" spy={true}>
+              <Link
+                className="nav__link"
+                to="projects"
+                spy={true}
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+              >
                 Projects
               </Link>
             </li>
             <li class="nav-item">
-              <Link className="nav__link" to="about" spy={true}>
+              <Link
+                className="nav__link"
+                to="about"
+                spy={true}
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+              >
                 About
               </Link>
             </li>
