@@ -8,14 +8,14 @@ import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 4500);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 4500);
+  // }, []);
 
   return (
     <div className="App">
@@ -25,14 +25,20 @@ function App() {
         <link rel="canonical" href="/" />
       </Helmet>
 
-      {loading ? (
+      <div>
+        <Navbar />
+        <Home />
+        <Projects />
+        <About />
+      </div>
+
+      {/* {loading ? (
         <HashLoader
           className="loader"
           loading={loading}
           size={80}
           color={"#94bbe9"}
         />
-        
       ) : (
         <div>
           <Navbar />
@@ -40,7 +46,7 @@ function App() {
           <Projects />
           <About />
         </div>
-      )}
+      )} */}
     </div>
   );
 }
