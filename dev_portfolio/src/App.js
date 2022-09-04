@@ -25,13 +25,6 @@ function App() {
         <link rel="canonical" href="/" />
       </Helmet>
 
-      <div>
-        <Navbar />
-        <Home />
-        <Projects />
-        <About />
-      </div>
-
       {loading ? (
         <HashLoader
           className="loader"
