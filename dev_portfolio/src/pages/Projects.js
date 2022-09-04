@@ -572,7 +572,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <hr className="line" />
+      <hr className="projects__line" />
     </div>
   );
 }
