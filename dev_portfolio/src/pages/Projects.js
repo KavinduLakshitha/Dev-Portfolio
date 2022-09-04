@@ -3,9 +3,9 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div className="projects" style={{ minHeight: 500 }}>
-      <br/>
-      <br/>
+    <div className="projects" style={{ minHeight: 600 }}>
+      <br />
+      <br />
       <h1 className="projects__bigTopic" style={{ marginTop: "80px" }}>
         My Coding Projects
       </h1>
@@ -31,7 +31,7 @@ function Projects() {
           </div>
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
+              <div className="projects__desc">
                 <h1 className="project__itemsTitle">Portraits by Kavindu</h1>
                 This is my art portfolio. As an artist, I have always wanted to
                 design a website for my business. It is a simple but
@@ -65,7 +65,7 @@ function Projects() {
                     &nbsp;&nbsp;&nbsp;Cloudinary
                   </li>
                 </ul>
-                <div className="btn-left">
+                <span className="btn-left">
                   <a
                     type="button"
                     href="https://www.portraitsbykavindu.art/"
@@ -74,25 +74,14 @@ function Projects() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    &#10094;&nbsp;&nbsp;View
-                    Demo&nbsp;&nbsp;&frasl;&nbsp;&#10095;
+                    View Demo
                   </a>
-                </div>
-              </p>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <hr
-        style={{
-          height: "1px",
-          color: "white",
-          width: "80%",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      />
 
       {/* Project 2 */}
 
@@ -100,7 +89,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
+              <div className="projects__desc">
                 <h1 className="project__itemsTitle">Netflix-Ish</h1>
                 Netflix-ish is a cloned version of the popular streaming service
                 Netflix. I have used ReactJS, Redux, TMDB ( The Movie Database )
@@ -133,7 +122,7 @@ function Projects() {
                     &nbsp;&nbsp;&nbsp;Email & Password Authentication
                   </li>
                 </ul>
-                <div className="btn-left">
+                <span className="btn-left">
                   <a
                     type="button"
                     href="https://netflix-b865e.web.app/"
@@ -142,11 +131,10 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    &#10094;&nbsp;&nbsp;View
-                    Demo&nbsp;&nbsp;&frasl;&nbsp;&#10095;
+                    View Demo
                   </a>
-                </div>
-              </p>
+                </span>
+              </div>
             </div>
           </div>
           <div className="col-md-6 g-0">
@@ -168,16 +156,6 @@ function Projects() {
           </div>
         </div>
       </div>
-
-      <hr
-        style={{
-          height: "1px",
-          color: "white",
-          width: "80%",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      />
 
       {/* Project 3 */}
 
@@ -202,7 +180,7 @@ function Projects() {
           </div>
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
+              <div className="projects__desc">
                 <h1 className="project__itemsTitle">Google-Ish</h1>
                 This is a google-like search engine that I have built. I've used
                 ReactJS, Material UI, Google Search API and Firebase in this
@@ -235,7 +213,7 @@ function Projects() {
                     &nbsp;&nbsp;&nbsp;Google Search API
                   </li>
                 </ul>
-                <div className="btn-left">
+                <span className="btn-left">
                   <a
                     type="button"
                     href="https://clone-005.web.app/"
@@ -244,25 +222,14 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    &#10094;&nbsp;&nbsp;View
-                    Demo&nbsp;&nbsp;&frasl;&nbsp;&#10095;
+                    View Demo
                   </a>
-                </div>
-              </p>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <hr
-        style={{
-          height: "1px",
-          color: "white",
-          width: "80%",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      />
 
       {/* Project 4 */}
 
@@ -270,7 +237,7 @@ function Projects() {
         <div className="row g-0">
           <div className="col-md-6 g-0">
             <div className="left d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
+              <div className="projects__desc">
                 <h1 className="project__itemsTitle">Messenger-ish</h1>
                 This is a full stack facebook-messenger clone. Here I have
                 specially used Firebase Firestore as the Database for the
@@ -299,7 +266,7 @@ function Projects() {
                     &nbsp;&nbsp;&nbsp;Firebase
                   </li>
                 </ul>
-                <div className="btn-left">
+                <span className="btn-left">
                   <a
                     type="button"
                     href="https://messenger-clone-7bb55.web.app/"
@@ -307,11 +274,10 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    &#10094;&nbsp;&nbsp;View
-                    Demo&nbsp;&nbsp;&frasl;&nbsp;&#10095;
+                    View Demo
                   </a>
-                </div>
-              </p>
+                </span>
+              </div>
             </div>
           </div>
           <div className="col-md-6 g-0">
@@ -333,16 +299,6 @@ function Projects() {
           </div>
         </div>
       </div>
-
-      <hr
-        style={{
-          height: "1px",
-          color: "white",
-          width: "80%",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      />
 
       {/* Project 5 */}
 
@@ -367,7 +323,7 @@ function Projects() {
           </div>
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="projects__desc">
+              <div className="projects__desc">
                 <h1 className="project__itemsTitle">Todo App</h1>
                 This is a small Todo application. But it has all the CRUD
                 funcionalities implemented. Can be usefull in day-to-day life.
@@ -392,7 +348,7 @@ function Projects() {
                     &nbsp;&nbsp;&nbsp;Firebase
                   </li>
                 </ul>
-                <div className="btn-left">
+                <span className="btn-left">
                   <a
                     type="button"
                     href="https://todo-app-548e1.web.app/"
@@ -400,16 +356,15 @@ function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    &#10094;&nbsp;&nbsp;View
-                    Demo&nbsp;&nbsp;&frasl;&nbsp;&#10095;
+                    View Demo
                   </a>
-                </div>
-              </p>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <hr className="line" />
+      {/* <hr className="line" /> */}
     </div>
   );
 }

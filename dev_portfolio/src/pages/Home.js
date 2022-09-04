@@ -1,19 +1,22 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "../components/Typewritter";
-import ParticlesContainer from "../ParticlesContainer";
 
-const typeWriter = ["a frontend Dev.", "an artist.", "a freelancer."];
+const typeWriter = ["a frontend Dev.", "an artist."];
 
 function Home() {
   return (
-    <div className="home" /* style={{ minHeight: 300 }} */>
-      <span className="home__badge">HI, MY NAME IS</span>
+    <div className="home" style={{ height: 500 }}>
+      <h4 className="home__badge">HI, MY NAME IS</h4>
       <h1 className="home__bigTopic">
         Kavindu Marasinghe
-        <br />I am&nbsp;
-        <Typewriter data={typeWriter} />
+        <br />
+        <span className="home__bigTopictr">
+          I am&nbsp;
+          <Typewriter data={typeWriter} />
+        </span>
       </h1>
+
       <p className="home__desc">
         I like to build awesome client-side web applications.🚀
         <br />
@@ -32,7 +35,6 @@ function Home() {
         Do you want to hire me?
       </a>
       <hr className="line" />
-      {/* <ParticlesContainer /> */}
     </div>
   );
 }

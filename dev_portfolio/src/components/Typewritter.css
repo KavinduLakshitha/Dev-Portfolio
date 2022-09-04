@@ -1,8 +1,7 @@
-.typewriter {    
-    color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(90deg,#3b73f6, #3ad6c3);
-    
-}
-
-
+.typewriter {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #3b73f6, #3ad6c3);
+  font-family: "Fira Code", monospace;
+  word-spacing: -15px;
+} 

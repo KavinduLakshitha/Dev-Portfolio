@@ -4,7 +4,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about" style={{ minHeight: 500 }}>
+    <div className="about" style={{ height: 500 }}>
       <div className="container">
         <div className="row g-0">
           <div className="col-md-6 g-0">
@@ -18,12 +18,12 @@ function About() {
           </div>
           <div className="col-md-6 g-0">
             <div className="right d-flex justify-content-center align-items-space-between">
-              <p className="about__desc">
+              <div className="about__desc">
                 <span className="about__badge">WHO AM I?</span>
                 <br />
                 <br />
                 <h1 className="aboutme__Title">I'm Kavindu Marasinghe</h1>
-                <p className="aboutme__desc">
+                <div className="aboutme__desc">
                   👨‍💻I am a 3rd-year undergraduate at SLIIT, doing a
                   specialization in BSc(hons) in Information Technology. I've
                   done a few ReactJS-based projects alone and as group projects
@@ -33,7 +33,7 @@ function About() {
                   When I am not coding or studying, I'd like to introduce my
                   self as an artist. I mostly do portrait arts as my hobby as
                   well as a freelancer.
-                </p>
+                </div>
                 <br />
                 <br />
                 <span className="about__Choices">
@@ -62,22 +62,22 @@ function About() {
                     &nbsp;&nbsp;&nbsp;MongoDB
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <a
+      {/* <a
         className="btn btn-info"
         href="https://github.com/KavinduLakshitha/"
         class="btn btn-info"
         role="button"
         target="_blank"
         rel="noreferrer"
-        style={{ marginBottom: "5px", backgroundColor: "#111827" }}
+        style={{position:"relative" ,top:"50px", marginBottom: "5px", backgroundColor: "#111827" }}
       >
-        My Github
-      </a>
+        Download My CV
+      </a> */}
 
       <Link to="home">
         <div className="gototop__button">
@@ -102,7 +102,14 @@ function About() {
           justifyContent: "center",
         }}
       >
-        <div className="row g-0">
+        <div
+          className="row g-0"
+          style={{
+            padding: "20px",
+            marginTop:"0",
+            boxShadow: "none",
+          }}
+        >
           <div className="col">
             <div className="sm__links d-flex justify-content-center">
               <a

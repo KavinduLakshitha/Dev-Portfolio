@@ -78,7 +78,8 @@
 @media (max-width: 768px) {
 
   .about__img{
-  margin-top: 100px;  
+  margin-top: 180px;
+  /* padding: 15px; */
   object-fit: contain;
   aspect-ratio: 1;
   width: 75%;
@@ -127,7 +128,7 @@
 }
 
 .gototop__button {
-  top:5px;
+  top:-15px;
   position: relative;
   cursor: pointer;
   margin-left: auto;

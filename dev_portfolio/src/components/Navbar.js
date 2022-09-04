@@ -13,7 +13,7 @@ function Navbar() {
       <Helmet></Helmet>
       <div className="container">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -21,13 +21,15 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item dropdown">
               <Link
-                className="nav__link"
+                className="nav__link dropdown-toggle"
                 to="home"
                 spy={true}
                 data-bs-toggle="collapse"
@@ -36,9 +38,9 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item dropdown">
               <Link
-                className="nav__link"
+                className="nav__link dropdown-toggle"
                 to="projects"
                 spy={true}
                 data-bs-toggle="collapse"
@@ -47,9 +49,9 @@ function Navbar() {
                 Projects
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item dropdown">
               <Link
-                className="nav__link"
+                className="nav__link dropdown-toggle"
                 to="about"
                 spy={true}
                 data-bs-toggle="collapse"

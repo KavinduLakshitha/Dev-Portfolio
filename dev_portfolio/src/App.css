@@ -3,7 +3,25 @@
   padding: 0;
   /* background-color: transparent; */
   background-color:#111827;
-  
   text-align: center;  
-  font-family: 'Fira Code', monospace;    
+  /* font-family: 'Fira Code', monospace; */
+  font-family: 'Inter';
+}
+
+.App{
+  animation: 1s ease-in-out 0s 1 slideInFromBottom; 
+}
+
+.loader{
+  margin-top: 40vh;
+  margin-inline: auto;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(40%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
